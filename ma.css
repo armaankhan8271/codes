@@ -1,0 +1,60 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+}
+
+.firsts {
+  margin-top: 100px;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: inherit;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+.bg1 {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1550' height='637' preserveAspectRatio='none' viewBox='0 0 1550 637'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1336%26quot%3b)' fill='none'%3e%3crect width='1550' height='637' x='0' y='0' fill='rgba(247%2c 244%2c 244%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c157 C 103.4%2c135.4 310.2%2c49.2 517%2c49 C 723.8%2c48.8 827.4%2c155.6 1034%2c156 C 1240.6%2c156.4 1446.8%2c72 1550%2c51L1550 637L0 637z' fill='%23f31861'%3e%3c/path%3e%3cpath d='M 0%2c304 C 103.4%2c282 310.2%2c200.4 517%2c194 C 723.8%2c187.6 827.4%2c264.6 1034%2c272 C 1240.6%2c279.4 1446.8%2c239.2 1550%2c231L1550 637L0 637z' fill='%23edac38'%3e%3c/path%3e%3cpath d='M 0%2c352 C 103.4%2c371.2 310.2%2c440.8 517%2c448 C 723.8%2c455.2 827.4%2c393.4 1034%2c388 C 1240.6%2c382.6 1446.8%2c414.4 1550%2c421L1550 637L0 637z' fill='%23c123a1'%3e%3c/path%3e%3cpath d='M 0%2c637 C 103.4%2c615.8 310.2%2c541.2 517%2c531 C 723.8%2c520.8 827.4%2c583 1034%2c586 C 1240.6%2c589 1446.8%2c554 1550%2c546L1550 637L0 637z' fill='rgba(24%2c 74%2c 126%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1336'%3e%3crect width='1550' height='637' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+ 
+}
+.likes{
+  margin-left: 200px;
+  height: inherit;
+  color:#262626
+}
+.types1{
+  padding: 15px;
+  font-style: italic;
+  color: #ebeaea;
+  font-size: 45px;
+  font-weight: bold;
+}

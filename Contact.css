@@ -1,0 +1,115 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+.first{
+     height: 8000px;
+    width: 100%;
+   
+color: white;
+  /* background-image: url('bg1 (1).jpg'); */
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c342.424C72.83%2c344.425%2c151.816%2c370.961%2c213.931%2c332.884C276.23%2c294.695%2c301.249%2c216.787%2c320.118%2c146.193C336.947%2c83.232%2c318.624%2c19.779%2c315.015%2c-45.292C310.995%2c-117.775%2c342.275%2c-200.661%2c297.701%2c-257.959C253.169%2c-315.202%2c168.268%2c-321.08%2c95.974%2c-326.859C33.33%2c-331.867%2c-26.32%2c-311.741%2c-84.72%2c-288.529C-138.429%2c-267.181%2c-188.49%2c-239.712%2c-228.415%2c-197.923C-269.82%2c-154.585%2c-306.382%2c-104.573%2c-316.854%2c-45.557C-327.498%2c14.429%2c-304.32%2c72.624%2c-286.773%2c130.965C-266.529%2c198.276%2c-263.08%2c279.618%2c-206.508%2c321.333C-149.666%2c363.247%2c-70.597%2c340.484%2c0%2c342.424' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 1082.21C1540.69 1091.289 1637.464 1053.2930000000001 1727.616 1007.539 1825.731 957.744 1943.836 910.684 1981.598 807.3389999999999 2019.2559999999999 704.279 1950.123 595.875 1916.161 491.538 1887.7649999999999 404.303 1848.098 326.26599999999996 1799.647 248.36399999999998 1742.162 155.93599999999998 1701.663 46.00999999999999 1606.3609999999999-6.572999999999979 1502.801-63.712999999999965 1368.632-98.32299999999998 1261.274-48.684999999999945 1154.406 0.7259999999999991 1154.442 157.127 1071.524 240.714 979.0799999999999 333.905 801.436 338.702 755.144 461.533 709.547 582.52 765.114 731.742 849.571 829.64 929.1990000000001 921.941 1071.813 910.5699999999999 1183.891 958.514 1272.858 996.572 1343.626 1073.52 1440 1082.21' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
+  background-size: cover;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+font-family: 'Bebas Neue', cursive;
+background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+
+
+}
+.second{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin-top:100px;
+    height: 700px;
+    width: 600px;
+    margin-left: 33%;
+    padding-top:100px;
+    /* border: 10px solid black; */
+    border-radius:150px;
+    box-shadow: 0 0 40px rgb(14, 14, 14);
+    
+
+    
+
+
+}
+.form{
+    /* border: 10px solid #100e0e; */
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.inp{
+    font-size: 22px;
+    /*font-family: 'Bebas Neue', cursive;
+    */color: white;
+    border-radius: 10px;
+    font-weight:1000;
+    width: 50%;
+    height: 40px;
+    color: black    ;
+    display: transparent;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.inp:hover {
+
+    /* background: #851242; */
+    /* height: 50px; */
+    border: 1px solid white;  /* fallback for old browsers */
+
+}
+.btn{
+    margin-left:70%
+
+}
+.a1234{
+    /* border: 1px solid black; */
+    width:500px;
+    margin-left:20px;
+    background: #851242;
+
+    border-radius: 50px;
+    display: transparent;
+    border:none;
+    margin-top:10px;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.contact-btn{
+    background: #f9f9f9;
+    color: rgb(0, 0, 0);
+border-radius: 200px;
+height: inherit;
+width: inherit;
+margin-left: 100px;
+margin-top: 10px;
+border-radius: 40px;
+border: 4px solid rgb(0, 0, 0);  /* fallback for old browsers */
+
+    
+}
+.namescon{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}

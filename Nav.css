@@ -1,0 +1,198 @@
+@media (min-width: 768px) {
+    
+    
+}
+
+
+
+.mnav{
+    font-style:italic ;
+    width:100%;
+    height:70px ; 
+    /* margin-left: 20px; */
+    /* margin-right: 20px;
+    margin-top: 10px; */
+/* border: 1px solid black; */
+/* display:transparent; */
+background: #000;
+font-family: 'Bebas Neue', cursive;
+font-size:30px;
+border:none;
+
+
+
+}
+.start{
+    width:1519px;
+    height:688px ; 
+    
+/* border: 1px solid black; */
+background-image: url('bg1 (3).jpg');
+background-size: cover;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+
+ 
+}
+
+
+
+.innerstart{
+    width:1320px;
+    height:484px ; 
+    margin-left: 99px;
+    margin-right: 99px;
+/* border: 1px solid black; */
+padding-top:144px ;
+padding-bottom:134px ;
+padding-left: 12px;
+padding-right:12px ;
+
+
+}
+.inner2start{
+    width:864px;
+    height:222px ; 
+    margin-left: 216px;
+    margin-right: 216px;
+/* border: 1px solid black; */
+font-size: 15px;
+
+line-height:24px;
+color:#ffffff;
+
+}
+inner2start.p{
+    font-size: 19px;
+    line-height:28px;
+    color:#ffffff;
+}
+inner2start.h1{
+    font-size: 58px;
+    line-height:55px;
+    color:#ffffff;
+}
+#inp{
+    /* height: 77px; */
+    width:945px;
+    border:none;
+    /* border:10px solid black; */
+}
+.inp{
+    background: white;
+    /* display:transparent; */
+    height:55px;
+    width: 1000px;
+    /* border: none; */
+
+}
+.naval{
+    /* text-align: end; */
+    font-size: 20px;
+    font-weight:900;
+    /* margin-left: 800px; */
+    font-size:20px;
+}
+.bgnav{
+    /* display: transparent; */
+    border:none;
+    /* border: 1px solid #ffffff; */
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+}
+
+
+.container {
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    /*max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    */display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*margin: 0 auto;
+    */background: #905d86;
+    /*fallbackforoldbrowsers*/background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    /*Chrome10-25,Safari5.1-6*/background: linear-gradient(to right, #333399, #ff00cc);
+    /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/color: white;
+    margin:0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+  .border:hover {
+    border: 1px solid #fff;
+  }
+  .card {
+    height:400px;
+    width: 500px;
+    background: #efe8e8;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: rgb(239, 239, 239);
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    border:10px solid black;
+    margin-left:100px
+  }
+  .card0 {
+    /* background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat; */
+    /* background-size: 300px; */
+    display: flex;
+    /* height: 300px; */
+  }
+ 
+  
+  h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .icons {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .f12{
+    width : 750px;
+    height: 57px;
+    background: #ffffff;
+  }
+  .download{
+    text-align: center;
+    /* margin-left: 50%; */
+  }
+  .likes{
+    height: 200px;
+  }
